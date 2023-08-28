@@ -4,7 +4,7 @@ Feature: Can be configured
     In order to get the best possible coffees
 
   Scenario: Display settings
-    Given the coffee machine is started
+    Given the coffee machine is started.
     When I switch to settings mode
     Then displayed message is:
       """
